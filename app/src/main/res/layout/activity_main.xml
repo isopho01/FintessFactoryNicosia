@@ -41,7 +41,7 @@
         android:id="@+id/login"
         android:layout_width="319dp"
         android:layout_height="83dp"
-        android:layout_above="@id/about"
+        android:layout_above="@id/home"
         android:layout_centerInParent="true"
         android:background="@drawable/my_button"
         android:fontFamily="@font/syncopate"
@@ -52,24 +52,24 @@
         tools:text="Login" />
 
     <Button
-        android:id="@+id/about"
+        android:id="@+id/home"
         android:layout_width="319dp"
         android:layout_height="83dp"
         android:layout_centerInParent="true"
         android:layout_marginTop="18dp"
         android:background="@drawable/my_button"
         android:fontFamily="@font/syncopate"
-        android:text="@string/about_us"
+        android:text="@string/home"
         android:textColor="#FFFFFF"
         android:textSize="21sp"
         android:textStyle="bold"
-        tools:text="About Us" />
+        tools:text="Home" />
 
     <Button
         android:id="@+id/classes"
         android:layout_width="319dp"
         android:layout_height="83dp"
-        android:layout_alignTop="@id/about"
+        android:layout_alignTop="@id/home"
         android:layout_alignParentStart="false"
         android:layout_alignParentLeft="false"
         android:layout_alignParentEnd="false"
