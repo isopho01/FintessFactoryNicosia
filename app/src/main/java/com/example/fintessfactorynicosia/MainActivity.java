@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
                 classes.setVisibility(View.INVISIBLE);
                 webView.setVisibility(View.VISIBLE);
 
-
             }
         });
         login.setOnClickListener(new View.OnClickListener() {
