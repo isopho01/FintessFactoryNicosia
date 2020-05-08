@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 webView = (WebView) findViewById(R.id.webview);
                 webView.loadUrl("javascript:document.open();document.close();");
                 webView.setWebViewClient(new WebViewClient());
-                webView.loadUrl("http://10.0.2.2:3000/");
+                webView.loadUrl("http://ffnfinal.web.app/");
                 WebSettings webSettings = webView.getSettings();
                 webSettings.setJavaScriptEnabled(true);
                 webSettings.setDomStorageEnabled(true);
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 webView.loadUrl("javascript:document.open();document.close();");
 
                 webView.setWebViewClient(new WebViewClient());
-                webView.loadUrl("http://10.0.2.2:3000/loginAndroid");
+                webView.loadUrl("http://ffnfinal.web.app/loginAndroid");
                 WebSettings webSettings = webView.getSettings();
                 webSettings.setJavaScriptEnabled(true);
                 webSettings.setDomStorageEnabled(true);
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                 webView.loadUrl("javascript:document.open();document.close();");
 
                 webView.setWebViewClient(new WebViewClient());
-                webView.loadUrl("http://10.0.2.2:3000/classes");
+                webView.loadUrl("http://ffnfinal.web.app/classes");
 
                 WebSettings webSettings = webView.getSettings();
                 webSettings.setJavaScriptEnabled(true);
